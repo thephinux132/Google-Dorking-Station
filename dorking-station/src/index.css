@@ -1,0 +1,17 @@
+/* Tailwind CSS entry */
+@import "tailwindcss";
+
+/* App base resets that complement Tailwind */
+html, body, #root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  background-color: rgb(249 250 251); /* gray-50 */
+  color: rgb(17 24 39); /* gray-900 */
+}
+.dark body {
+  background-color: rgb(17 24 39); /* gray-900 */
+  color: rgb(229 231 235); /* gray-200 */
+}
